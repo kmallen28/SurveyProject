@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <h1 id="title">How do you play games?</h1>
+      <p id="description">Thank you for helping us learn more</p>
+      <form id="survey-form">
+        <fieldset>
+        <label for="name" id="name-label">Name: <input type="text" id="name" required placeholder="Enter your name"></label><br>
+        <label for="email" id="email-label">Email: <input type="email" id="email" required placeholder="Enter your email"></label><br>
+        <label for="number" id="number-label">Age: <input type="number" id="number" min="13" max="105" placeholder="Age"></label>
+        </fieldset>
+        <fieldset>
+        <h2>Do you play games</h2>
+<select id="dropdown">
+  <option value="">(select one)</option>
+  <option value="1">Yes</option>
+  <option value="2">No</option>
+  </select>
+  </fieldset>
+  <fieldset>
+    <h2>How often you play games?</h2>
+    <label for="daily"><input id="daily" type="radio" name="frequency" value="daily" class="inline">Daily</label>
+    <label for="weekly"><input id="weekly" type="radio" name="frequency" value="weekly" class="inline">Weekly</label>
+    <label for="monthly"><input id="monthly" type="radio" name="frequency" value="monthly" class="inline">Monthly</label>
+    </fieldset>
+    <fieldset>
+      <h2>What kind of games do you play?</h2>
+      <label for="console"><input id="console" type="checkbox" name="system" value="console" class="inline">Console</label>
+       <label for="PC"><input id="pc" type="checkbox" name="system" value="pc" class="inline">PC</label>
+        <label for="tabletop"><input id="tabletop" type="checkbox" name="system" value="tabletop" class="inline">Tabletop</label>
+         <label for="phone"><input id="phone" type="checkbox" name="system" value="mobile" class="inline">Mobile</label>
+      </fieldset>
+      <fieldset>
+        <h2>What are your favorite games?</h2>
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Halo, Bioshock..."></textarea>
+        </fieldset>
+        <input type="submit" id="submit">
+        </form>
+      </body>
+  </html>

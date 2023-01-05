@@ -6,7 +6,7 @@ body {
   color: #f5f6f7;
   font-family: Tahoma;
   font-size: 16px;
-  background-image: url("./images/gamebackground.jpg");
+  background-image: url("gamebackground.jpg");
   background-repeat: no-repeat;
 }
 
